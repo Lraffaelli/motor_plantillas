@@ -46,5 +46,11 @@
     "price": "217",
     "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-48.png",
     "id": 8
+  },
+  {
+    "title": "Pizarron",
+    "price": "274",
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/board-math-class-school-48.png",
+    "id": 9
   }
 ]
