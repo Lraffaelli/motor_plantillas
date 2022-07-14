@@ -1,0 +1,23 @@
+<table class="table table-dark table-striped ">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Producto</th>
+            <th>Precio</th>
+            <th>Imagen</th>
+        </tr>
+
+        <tbody>
+            <% productos.forEach(function(producto) { %>
+             <tr>
+                 <th><%=producto.id %> </th>
+                 <th><%=producto.title %> </th>
+                 <th><%=producto.price %> </th>
+                 <th><img class="img-thumbnail" src=<%=producto.thumbnail %> alt=<%=producto.id%> ></th>
+             </tr>
+             <% }); %>
+        </tbody>
+    </thead>
+
+</table>
+
